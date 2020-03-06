@@ -15,7 +15,7 @@
   </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="C:\Users\emman\Downloads\Git.exe" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/codehacking" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
@@ -132,7 +132,7 @@
       <workItem from="1582656406621" duration="5915000" />
       <workItem from="1582662383553" duration="74251000" />
       <workItem from="1583185263183" duration="20555000" />
-      <workItem from="1583243724307" duration="81671000" />
+      <workItem from="1583243724307" duration="84253000" />
     </task>
     <servers />
   </component>
