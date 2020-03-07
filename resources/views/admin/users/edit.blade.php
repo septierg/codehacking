@@ -5,7 +5,7 @@
 
     <div class="container" style="padding-top:20px; padding-left:15px;">
         <hr>
-        <h3 style="padding-top:20px;"> Edit User</h3>
+        <h1 > Edit User</h1>
 
             <div class="w3-row-padding" style="margin:0 -16px">
                 <div class="w3-quarter">
@@ -43,14 +43,14 @@
                         <label for="password">Password:</label><br>
                         <input type="password" id="password" name="password" value=""><br><br><br><br>
                         {{csrf_field()}}
-                        <input class= "w3-blue" type="submit" value="Edit">
+                        <input class= "w3-blue" type="submit" value="Edit User">
                         <input type="hidden" name="_token" value="{!! csrf_token() !!}">
                     </form>
                     <form action="/admin/users/{{$user->id}}"  method="post">
                         {{csrf_field()}}
                         <input type="hidden" name="_method" value="DELETE">
 
-                        <input class= "w3-red" type="submit" value="Delete user">
+                        <input class= "w3-red" type="submit" value="Delete User">
                     </form>
 
 
