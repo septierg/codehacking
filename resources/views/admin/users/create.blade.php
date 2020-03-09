@@ -35,7 +35,7 @@
 
             <input type="password" id="password" name="password" value=""><br><br><br><br>
             {{csrf_field()}}
-            <input type="submit" value="Submit">
+            <input type="submit" value="Create User" class="w3-blue-grey">
             <input type="hidden" name="_token" value="{!! csrf_token() !!}">
         </form>
 

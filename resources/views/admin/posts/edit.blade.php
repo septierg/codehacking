@@ -23,7 +23,7 @@
         {!! Form::label('body', 'Description:') !!}<br>
         {!! Form::textarea('body', null )!!}<br>
 
-        {!! Form::submit('Edit post',['class'=> 'w3-blue']) !!}
+        {!! Form::submit('Edit post',['class'=> 'w3-blue-grey']) !!}
         {!! Form::close() !!}
 
         {!! Form::open(['method' => 'DELETE','action' => ['AdminPostsController@destroy', $posts->id]]) !!}

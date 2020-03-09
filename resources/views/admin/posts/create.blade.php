@@ -18,7 +18,7 @@
         {!! Form::label('body', 'Description:') !!}<br>
         {!! Form::textarea('body', null )!!}<br>
 
-        {!! Form::submit('create post') !!}
+        {!! Form::submit('Create Post' ,['class'=> 'w3-blue-grey']) !!}
         {!! Form::close() !!}
 
 

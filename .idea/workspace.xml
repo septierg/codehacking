@@ -101,12 +101,12 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\codehacking\resources\views\admin" />
-      <recent name="C:\wamp64\www\codehacking\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\codehacking\resources\views\admin\users" />
+      <recent name="C:\wamp64\www\codehacking\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\codehacking\resources\views\admin" />
       <recent name="C:\wamp64\www\codehacking\public" />
     </key>
   </component>
@@ -132,7 +132,7 @@
       <workItem from="1582656406621" duration="5915000" />
       <workItem from="1582662383553" duration="74251000" />
       <workItem from="1583185263183" duration="20555000" />
-      <workItem from="1583243724307" duration="94182000" />
+      <workItem from="1583243724307" duration="102383000" />
     </task>
     <servers />
   </component>

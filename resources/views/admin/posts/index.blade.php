@@ -3,6 +3,8 @@
 @section('content')
     <div class="container">
         <h1> POSTS</h1>
+        <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
+        <hr>
         <table class="table">
             <thead>
             <tr>

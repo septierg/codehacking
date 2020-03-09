@@ -43,7 +43,7 @@
                         <label for="password">Password:</label><br>
                         <input type="password" id="password" name="password" value=""><br><br><br><br>
                         {{csrf_field()}}
-                        <input class= "w3-blue" type="submit" value="Edit User">
+                        <input class= "w3-blue-grey" type="submit" value="Edit User">
                         <input type="hidden" name="_token" value="{!! csrf_token() !!}">
                     </form>
                     <form action="/admin/users/{{$user->id}}"  method="post">

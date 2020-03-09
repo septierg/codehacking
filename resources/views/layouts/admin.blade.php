@@ -40,7 +40,7 @@
         }
         /* Add an active class to the active dropdown button */
         .active {
-            background-color: darkslategray;
+            background-color: #607d8b !important ;
             color: white;
         }
         /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
@@ -149,8 +149,8 @@
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="/categories">All Categories</a>
-            <a href="/categories/create">Create Category</a>
+            <a href="{{route('admin.categories.index')}}">All Categories</a>
+            <a href="{{route('admin.categories.create')}}">Create Category</a>
         </div>
 
         <button class="dropdown-btn"><i class="fa fa-history fa-fw"></i>
