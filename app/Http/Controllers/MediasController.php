@@ -18,7 +18,28 @@ class MediasController extends Controller
 
     public function store(Request $request){
 
-        return view('admin.media.create');
+           //return $input=$request->all();
+
+        if($file= $request->file('file')){
+
+            $name= time() .$file->getClientOriginalName();
+
+            $file->move('images', $name);
+            $photo = Photo::create(['file' =>$name]);
+            $input['file'] = $photo->id;
+        }
+
+        return redirect('/admin/media');
+    }
+
+    public function destroy($id){
+         $photo= Photo::findorFail($id);
+
+        //finding relation with photo, unlink them
+        unlink(public_path().$photo->file);
+        $photo->delete();
+        return redirect('/admin/media');
+
 
     }
 
