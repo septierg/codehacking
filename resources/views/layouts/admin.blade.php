@@ -150,7 +150,6 @@
         </button>
         <div class="dropdown-container">
             <a href="{{route('admin.categories.index')}}">All Categories</a>
-            <a href="{{route('admin.categories.create')}}">Create Category</a>
         </div>
 
         <button class="dropdown-btn"><i class="fa fa-history fa-fw"></i>
@@ -158,8 +157,7 @@
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="/media">All Media</a>
-            <a href=" ">Upload Media</a>
+            <a href="{{route('admin.media.index')}}">All Media</a>
         </div>
 
 

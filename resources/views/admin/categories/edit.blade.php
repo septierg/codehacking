@@ -2,26 +2,43 @@
 
 @section('content')
     <div class="container">
-        <div class="w3-row-padding">
-            <h1> CATEGORIES</h1>
-            <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
-            <hr>
-            <div class="w3-col m6">
-                <h2> Update Category</h2>
-                {!! Form::model($category, ['method' => 'PATCH','action' => ['AdminCategoriesController@update',$category->id]]) !!}
+        <hr>
+        <h1> Edit Cat</h1>
+        <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-quarter">
+                <img  style="width:60%" src="{{$posts->photo->file ? $posts->photo->file : 'https://via.placeholder.com/50'}}" class="responsive" alt="post_image">
+            </div>
+            <div class="w3-twothird">
+                {!! Form::model($posts, ['method' => 'PATCH','action' => ['AdminPostsController@update', $posts->id],'files' =>true]) !!}
 
-                {!! Form::label('name', 'Name:') !!}<br>
-                {!! Form::text('name', null)!!}<br>
+                {!! Form::label('title', 'Title:') !!}<br>
+                {!! Form::text('title', null)!!}<br>
 
-                {!! Form::submit('Update Category' ,['class'=> 'w3-blue-grey']) !!}
+                {!! Form::label('category_id', 'Category:') !!}<br>
+                {!! Form::select('category_id', $categories)!!}<br>
+
+                {!! Form::label('photo_id', 'Photo:') !!}<br>
+                {!! Form::file('photo_id', null )!!}<br>
+
+                {!! Form::label('body', 'Description:') !!}<br>
+                {!! Form::textarea('body', null )!!}<br>
+
+                {!! Form::submit('Edit post',['class'=> 'w3-blue']) !!}
                 {!! Form::close() !!}
 
-                {!! Form::open(['method' => 'DELETE','action' => ['AdminCategoriesController@destroy',$category->id]]) !!}
+                {!! Form::open(['method' => 'DELETE','action' => ['AdminPostsController@destroy', $posts->id]]) !!}
 
-                {!! Form::submit('Delete Category' ,['class'=> 'w3-red']) !!}
+
+
+
+                {!! Form::submit('Delete Category',['class'=> 'w3-red']) !!}
                 {!! Form::close() !!}
+
+
+
             </div>
         </div>
     </div>
     @include('includes.form_error')
 @endsection
+
