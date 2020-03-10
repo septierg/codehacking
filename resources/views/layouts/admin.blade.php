@@ -136,12 +136,13 @@
 
 
         <button class="dropdown-btn"><i class="fa fa-bullseye fa-fw"></i>
-            Post
+            Posts
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="{{ route('admin.posts.index') }}">All Post</a>
+            <a href="{{ route('admin.posts.index') }}">All Posts</a>
             <a href="{{ route('admin.posts.create') }}">Create Post</a>
+            <a href="{{route('admin.comments.index')}}">All Comments</a>
         </div>
 
         <button class="dropdown-btn"><i class="fa fa-bell fa-fw"></i>
@@ -153,13 +154,12 @@
         </div>
 
         <button class="dropdown-btn"><i class="fa fa-history fa-fw"></i>
-            Media
+            Medias
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
             <a href="{{route('admin.media.index')}}">All Media</a>
         </div>
-
 
         <button class="dropdown-btn"><i class="fa fa-bar-chart-o fa-fw"></i>
             Charts
