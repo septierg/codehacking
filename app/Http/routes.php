@@ -38,3 +38,6 @@ Route::group(['middleware' => 'admin'], function (){
     Route::resource('admin/comment/replies', 'CommentRepliesCommentController');
 
 });
+Route::auth();
+
+Route::get('/home', 'HomeController@index');

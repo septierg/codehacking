@@ -26,6 +26,6 @@ class Post extends Model
     }
     //creating relationship posts has many comments
     public function comments(){
-        return $this->hasMany('App\Post');
+        return $this->hasMany('App\Comment');
     }
 }
