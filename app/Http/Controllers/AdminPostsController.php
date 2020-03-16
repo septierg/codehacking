@@ -35,7 +35,7 @@ class AdminPostsController extends Controller
     public function create()
     {
         //help to open the category model and send it to help create the post
-        $categories =Category::lists('name', 'id')->all();
+        $categories =Category::pluck('name', 'id')->all();
         //dd($categories);
         return view('admin.posts.create', compact('categories'));
     }
@@ -88,7 +88,7 @@ class AdminPostsController extends Controller
         //
         $posts= Post::findOrFail($id);
         //help to open the category model and send it to help create the post
-        $categories =Category::lists('name', 'id')->all();
+        $categories =Category::pluck('name', 'id')->all();
         return view('admin.posts.edit', compact('posts','categories'));
     }
 

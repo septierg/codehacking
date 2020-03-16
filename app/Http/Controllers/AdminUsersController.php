@@ -35,9 +35,9 @@ class AdminUsersController extends Controller
      */
     public function create()
     {
-        //pulling out data from the DB to use it in a list
-
-        return view('admin.users.create');
+        //help to open the category model and send it to help create the post
+        $roles =Role::pluck('name', 'id')->all();
+        return view('admin.users.create',compact('roles'));
     }
 
     /**
@@ -49,7 +49,7 @@ class AdminUsersController extends Controller
     public function store(UserRequest $request)
     {
           //
-
+        //return $input=$request->all();
         if(trim($request->password)== ''){
             $input =$request->except('password');
         }
@@ -57,7 +57,6 @@ class AdminUsersController extends Controller
             $input=$request->all();
             $input['password'] = bcrypt($request->password);
         }
-
 
           //creating data from request directly in the DB if its a picture
           if($file = $request->file('file')){
@@ -107,7 +106,7 @@ class AdminUsersController extends Controller
     {
         //
         $user= User::findOrFail($id);
-        $role= Role::lists('name', 'id')->all();
+        $role= Role::pluck('name', 'id')->all();
         //dd($user);
         return view('admin.users.edit', compact('user','role'));
     }

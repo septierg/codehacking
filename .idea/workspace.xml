@@ -84,6 +84,7 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
     </include_path>
   </component>
   <component name="ProjectId" id="1Y8JjiMlajV50U8fGzDXMsF0jLm" />
@@ -96,17 +97,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../login" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\codehacking\resources\views\admin\users" />
-      <recent name="C:\wamp64\www\codehacking\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\codehacking\resources\views\admin" />
+      <recent name="C:\wamp64\www\codehacking\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\codehacking" />
+      <recent name="C:\wamp64\www\codehacking\resources\views\admin\users" />
       <recent name="C:\wamp64\www\codehacking\public" />
     </key>
   </component>
@@ -133,7 +135,7 @@
       <workItem from="1582662383553" duration="74251000" />
       <workItem from="1583185263183" duration="20555000" />
       <workItem from="1583243724307" duration="143049000" />
-      <workItem from="1584236845519" duration="14508000" />
+      <workItem from="1584236845519" duration="30219000" />
     </task>
     <servers />
   </component>
@@ -158,10 +160,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="479" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1582670780921" />
-    <state x="505" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1583441250992">
+    <state x="505" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1584327046128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="505" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583441250992" />
+    <state x="505" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584327046128" />
     <state x="555" y="168" key="FileChooserDialogImpl" timestamp="1582755486049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -182,10 +184,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1582649200468" />
-    <state x="604" y="337" key="NewPhpFileDialog" timestamp="1583941267158">
+    <state x="604" y="337" key="NewPhpFileDialog" timestamp="1584323396113">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="604" y="337" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583941267158" />
+    <state x="604" y="337" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584323396113" />
     <state x="291" y="56" key="SettingsEditor" timestamp="1582741975226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
