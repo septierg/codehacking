@@ -9,7 +9,7 @@
                 <hr>
                 <h5>Posted on <span class="w3-opacity">{{ $post->created_at->diffForHumans()}}</span></h5>
                 <hr>
-                <img class="responsive" style="width:100%" src="{{ $post->photo->file}}">
+                <img class="responsive" style="width:100%" src="{{ $post->photo->file ? $post->photo->file :'https://via.placeholder.com/100' }}">
                 <p>{{ $post->body}}</p>
                 <hr>
                 @if(session("comment message"))

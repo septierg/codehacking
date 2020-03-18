@@ -99,7 +99,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -135,7 +135,8 @@
       <workItem from="1582662383553" duration="74251000" />
       <workItem from="1583185263183" duration="20555000" />
       <workItem from="1583243724307" duration="143049000" />
-      <workItem from="1584236845519" duration="30219000" />
+      <workItem from="1584236845519" duration="32280000" />
+      <workItem from="1584557892917" duration="452000" />
     </task>
     <servers />
   </component>
@@ -188,10 +189,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="337" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584323396113" />
-    <state x="291" y="56" key="SettingsEditor" timestamp="1582741975226">
+    <state x="291" y="56" key="SettingsEditor" timestamp="1584558351815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="291" y="56" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1582741975226" />
+    <state x="291" y="56" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584558351815" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1584236847509">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

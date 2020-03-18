@@ -14,7 +14,7 @@
         {!! Form::text('email', null)!!}<br>
 
         {!! Form::label('status', 'Status:') !!}<br>
-        {!! Form::select('status', ['0' => 'Not Active', '1' => 'Active'], null, ['placeholder' => 'choose a status']);!!}<br>
+        {!! Form::select('is_active', ['0' => 'Not Active', '1' => 'Active'], null, ['placeholder' => 'choose a status']);!!}<br>
 
         {!! Form::label('role', 'Role:') !!}<br>
         {!! Form::select('role_id',['' => 'choose role' ] + $roles)!!}<br>
