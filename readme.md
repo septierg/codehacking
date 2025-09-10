@@ -1,2 +1,2 @@
 # codehacking
- Cms with Laraval 5.2
+ Cms with Laravel 5.2
